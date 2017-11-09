@@ -1,0 +1,74 @@
+header{
+	display: flex;
+	padding:30px 50px 10px 75px;
+    font-family:Arial;
+    margin-bottom: 30px;
+}
+
+section {
+	display: flex;
+	margin-left: 20px;
+}
+
+aside{
+	margin-top: 20px;
+}
+#logo img {
+	width:100px;
+	padding-left: 10px;
+	margin-right: auto
+}
+
+#navigationbar {
+	margin-left: 80px;
+	margin-top:-18px;
+}
+
+h1{
+	font-size: 25px;
+}
+
+#content {
+	margin-left: 40px;
+	max-width: 700px;
+	text-align: justify;
+}
+
+nav a{
+	text-decoration: none;
+	margin-right: 0 px;
+	padding: 6px;
+	font-weight: bold;
+	border-right: 1px solid black;
+	font-size: 18px; 
+	text-align: center; 
+
+}
+
+a{
+	text-decoration-line: none;
+}
+
+a:visited{
+	color:#3da052;
+}
+
+a:hover, a:active {
+background-color: #3da052;
+color:white;
+}
+
+ul{
+	list-style: none;
+}
+
+li {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+}
+
+p{
+	margin-left: 10px;
+	font-size: 16px;
+}
