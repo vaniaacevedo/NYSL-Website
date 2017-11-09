@@ -1,13 +1,15 @@
 header{
 	display: flex;
-	padding:30px 50px 10px 75px;
+	padding:30px;
     font-family:Arial;
-    margin-bottom: 30px;
+    margin-left: 30px: 
+    
 }
 
 section {
 	display: flex;
 	margin-left: 20px;
+	padding-left: 10px;
 }
 
 aside{
@@ -19,13 +21,15 @@ aside{
 	margin-right: auto
 }
 
-#navigationbar {
-	margin-left: 80px;
-	margin-top:-18px;
+nav {
+	margin-left: 30px;
+	margin-top:-40px;
+	padding: 20px;
 }
 
 h1{
 	font-size: 25px;
+	padding: 6px;
 }
 
 #content {
@@ -39,10 +43,13 @@ nav a{
 	margin-right: 0 px;
 	padding: 6px;
 	font-weight: bold;
-	border-right: 1px solid black;
 	font-size: 18px; 
 	text-align: center; 
 
+}
+
+nav a:not(:last-child){
+	border-right: 1px solid gray;
 }
 
 a{
