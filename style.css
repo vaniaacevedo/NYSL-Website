@@ -45,6 +45,7 @@ nav a{
 	font-weight: bold;
 	font-size: 18px; 
 	text-align: center; 
+	color: black;
 
 }
 
@@ -54,13 +55,14 @@ nav a:not(:last-child){
 
 a{
 	text-decoration-line: none;
+
 }
 
-a:visited{
+nav a:visited{
 	color:#3da052;
 }
 
-a:hover, a:active {
+nav a:hover, a:active {
 background-color: #3da052;
 color:white;
 }
