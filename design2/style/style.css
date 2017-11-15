@@ -8,7 +8,7 @@ header {
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: top center;
-	background-image: url(new_images/image1.jpeg);
+	background-image: url("../images/image1.jpeg");
 	margin-top: 100px;
 }
 

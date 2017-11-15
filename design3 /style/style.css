@@ -6,12 +6,10 @@ applet,
 object,
 iframe,
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
-p,
 blockquote,
 pre,
 a,
@@ -48,14 +46,8 @@ fieldset,
 form,
 label,
 legend,
-table,
 caption,
-tbody,
 tfoot,
-thead,
-tr,
-th,
-td,
 article,
 aside,
 canvas,
@@ -83,55 +75,10 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
-
-
-
-/* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-
 /**********************************************/
 
 body {
-    background-image: url(new_images/markus-spiske-441275.jpg);
+    background-image: url("../images/ryan-stone-383686.jpg");
     background-size: cover;
 }
 
@@ -141,16 +88,14 @@ header {
     border-bottom: 4px solid #004c00;
 }
 
-
 #title {
     font-size: 35px;
-    color:#004c00;
+    color: #004c00;
     padding: 20px;
     position: absolute;
-    left:410px;
-    top:-10;
+    left: 410px;
+    top: -10;
 }
-
 
 #logo {
     position: absolute;
@@ -159,11 +104,11 @@ header {
 }
 
 .main-content {
-    width: 800px;
-    height: 400px;
+    width: 900px;
+    height: 500px;
     margin: 90px auto;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 20px;
     font-size: 20px;
     text-align: justify;
@@ -179,14 +124,12 @@ header {
 
 #home-box li {
     font-weight: bold;
-    font-style: italic;
     padding: 6px;
 }
 
 #home-box {
 
     height: 300px;
-    
 }
 
 #home-box2 {
@@ -200,9 +143,12 @@ header {
 
 section h2 {
     font-size: 25px;
+    font-weight: bold;    
+}
+
+section h3{
     font-weight: bold;
-    padding: 10px;
-    margin-left: -8;
+    font-size: 20px;
 }
 
 #second {
@@ -235,7 +181,30 @@ i {
     margin-right: 5px;
 }
 
-
 article a {
-    color: blue;
+  
+  color: blue;
 }
+
+table{
+    width: 100%;
+}
+
+table td {
+	padding: 15px;
+    background-color:#eafaea;
+    border:1px solid #004c00;
+    font-size: 20px;
+}
+
+table th{
+    padding:10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+
+
+
