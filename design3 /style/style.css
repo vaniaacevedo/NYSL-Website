@@ -79,41 +79,76 @@ video {
 
 body {
     background-image: url("../images/ryan-stone-383686.jpg");
-    background-size: cover;
+    background-size: cover; 
+    font-family: 'Carrois Gothic', sans-serif;
+
 }
+/*STYLE FOR THE HEADER*/
 
 header {
-    height: 140px;
+    height: 110px;
     background-color: white;
     border-bottom: 4px solid #004c00;
+    position:fixed;
+    width: 100%;
+    top:0px;
+    left:0px;
+    z-index:1; /* allows an element to come on top of another*/
 }
 
-#title {
-    font-size: 35px;
+a {
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 40px;
     color: #004c00;
-    padding: 20px;
-    position: absolute;
-    left: 410px;
-    top: -10;
-}
+ }   
+ 
+ nav a{
+    display: inline-block;
+    transition: all .4s;
+    
+ }   
+
+ nav a:hover {
+    transform: scale(1.1,1.1);
+    
+    
+}    
 
 #logo {
     position: absolute;
-    top: 65px;
+    top: 31px;
     left: 600px;
 }
 
+#second {
+    position: absolute;
+    right: 130px;
+    top: 69px;
+}
+
+#first {
+    position: absolute;
+    left: 130px;
+    top: 69px;
+}
+
+/*STYLE FOR THE SECTION*/
+
 .main-content {
-    width: 900px;
-    height: 500px;
-    margin: 90px auto;
+    width: 800px;
+    height: 400px;
+    margin:auto;
+    margin-top: 235px;
+    margin-bottom: 80px;
     background-color: white;
     opacity: 0.9;
-    padding: 20px;
-    font-size: 20px;
+    padding: 60px;
+    font-size: 18px;
     text-align: justify;
     border-radius: 4px;
     overflow: scroll;
+
 }
 
 .main-content li {
@@ -122,59 +157,37 @@ header {
     list-style: inside;
 }
 
+section h2 {
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+
+section h3{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+/*STYLE FOR THE ARTICLE IN HOME AND CONTACT PAGE*/
+
 #home-box li {
     font-weight: bold;
     padding: 6px;
 }
 
-#home-box {
-
-    height: 300px;
+#home-box h2 {
+    text-align: center;
+    
 }
 
 #home-box2 {
-    text-align: center;
+    text-align: left;
     height: 200px;
 }
 
 #home-box2 p {
     margin-top: 30px;
-}
-
-section h2 {
-    font-size: 25px;
-    font-weight: bold;    
-}
-
-section h3{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#second {
-    position: absolute;
-    right: 200px;
-    top: 80px;
-}
-
-#first {
-    position: absolute;
-    left: 100px;
-    top: 80px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 20px;
-    margin-right: 40px;
-    color: #004c00;
-}
-
-a:hover {
-    background-color: #004c00;
-    color: white;
-    border-radius: 5px;
-    padding: 8px;
 }
 
 i {
@@ -183,8 +196,10 @@ i {
 
 article a {
   
-  color: blue;
+  color: #0d6ad2;
 }
+
+/*STYLE FOR THE TABLE*/
 
 table{
     width: 100%;
@@ -193,18 +208,76 @@ table{
 table td {
 	padding: 15px;
     background-color:#eafaea;
-    border:1px solid #004c00;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 table th{
     padding:10px;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
 }
 
 
+#table2 a{
+    text-decoration-line: underline;
+    font-size: 16px;
+}
 
+/*STYLE FOR THE FORM*/
+
+form{
+    border:1px solid #004c00;
+    padding: 30px;
+}
+
+form label{
+    padding: 10px;
+}
+
+form input{
+    margin-right: 9px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+form option{
+    padding: 6px;
+}
+
+form h2{
+    text-align: center;
+}
+
+#permission {
+    font-size: 11px;
+}
+
+button {
+    padding:9px;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #eafaea;
+    border:2px solid #004c00;
+    font-size: 16px;    
+}
+
+/*STYLE FOR THE MAPS*/
+
+.map h2{
+ 
+ text-align: center;
+
+}
+
+.map iframe{
+    margin:20px 200px;
+}
+
+article .link p{
+    text-align: center;
+}
 
 
 
