@@ -1,0 +1,283 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+caption,
+tfoot,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/**********************************************/
+
+body {
+    background-image: url("../images/ryan-stone-383686.jpg");
+    background-size: cover; 
+    font-family: 'Carrois Gothic', sans-serif;
+
+}
+/*STYLE FOR THE HEADER*/
+
+header {
+    height: 110px;
+    background-color: white;
+    border-bottom: 4px solid #004c00;
+    position:fixed;
+    width: 100%;
+    top:0px;
+    left:0px;
+    z-index:1; /* allows an element to come on top of another*/
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 40px;
+    color: #004c00;
+ }   
+ 
+ nav a{
+    display: inline-block;
+    transition: all .4s;
+    
+ }   
+
+ nav a:hover {
+    transform: scale(1.1,1.1);
+    
+    
+}    
+
+#logo {
+    position: absolute;
+    top: 31px;
+    left: 600px;
+}
+
+#second {
+    position: absolute;
+    right: 130px;
+    top: 69px;
+}
+
+#first {
+    position: absolute;
+    left: 130px;
+    top: 69px;
+}
+
+/*STYLE FOR THE SECTION*/
+
+.main-content {
+    width: 800px;
+    height: 400px;
+    margin:auto;
+    margin-top: 235px;
+    margin-bottom: 80px;
+    background-color: white;
+    opacity: 0.9;
+    padding: 60px;
+    font-size: 18px;
+    text-align: justify;
+    border-radius: 4px;
+    overflow: scroll;
+
+}
+
+.main-content li {
+    padding: 5px;
+    margin-bottom: 8px;
+    list-style: inside;
+}
+
+section h2 {
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+
+section h3{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+/*STYLE FOR THE ARTICLE IN HOME AND CONTACT PAGE*/
+
+#home-box li {
+    font-weight: bold;
+    padding: 6px;
+}
+
+#home-box h2 {
+    text-align: center;
+    
+}
+
+#home-box2 {
+    text-align: left;
+    height: 200px;
+}
+
+#home-box2 p {
+    margin-top: 30px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+article a {
+  
+  color: #0d6ad2;
+}
+
+/*STYLE FOR THE TABLE*/
+
+table{
+    width: 100%;
+}
+
+table td {
+	padding: 15px;
+    background-color:#eafaea;
+    font-size: 16px;
+}
+
+table th{
+    padding:10px;
+    text-align: left;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+}
+
+
+#table2 a{
+    text-decoration-line: underline;
+    font-size: 16px;
+}
+
+/*STYLE FOR THE FORM*/
+
+form{
+    border:1px solid #004c00;
+    padding: 30px;
+}
+
+form label{
+    padding: 10px;
+}
+
+form input{
+    margin-right: 9px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+form option{
+    padding: 6px;
+}
+
+form h2{
+    text-align: center;
+}
+
+#permission {
+    font-size: 11px;
+}
+
+button {
+    padding:9px;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #eafaea;
+    border:2px solid #004c00;
+    font-size: 16px;    
+}
+
+/*STYLE FOR THE MAPS*/
+
+.map h2{
+ 
+ text-align: center;
+
+}
+
+.map iframe{
+    margin:20px 200px;
+}
+
+article .link p{
+    text-align: center;
+}
+
+
+
