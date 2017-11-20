@@ -80,6 +80,7 @@ video {
 body {
     background-image: url("../images/ryan-stone-383686.jpg");
     background-size: cover; 
+    background-attachment: fixed;
     font-family: 'Carrois Gothic', sans-serif;
 
 }
@@ -99,45 +100,41 @@ header {
 a {
     text-decoration: none;
     font-size: 22px;
-    margin-right: 40px;
     color: #004c00;
  }   
  
- nav a{
-    display: inline-block;
+ ul a{
     transition: all .4s;
     
  }   
 
- nav a:hover {
+ ul a:hover {
     transform: scale(1.1,1.1);
     
     
 }    
 
 #logo {
-    position: absolute;
-    top: 31px;
-    left: 600px;
+    position: relative;
+    top:-32px;
 }
 
-#second {
-    position: absolute;
-    right: 130px;
-    top: 69px;
-}
 
-#first {
-    position: absolute;
-    left: 130px;
-    top: 69px;
+nav ul{
+    
+    list-style-type:none;
+    margin:auto;
+    padding: 50px;
+    padding-top: 65px; 
+    display: flex;
+    justify-content: space-around;
+
 }
 
 /*STYLE FOR THE SECTION*/
 
 .main-content {
     width: 800px;
-    height: 400px;
     margin:auto;
     margin-top: 235px;
     margin-bottom: 80px;
@@ -147,7 +144,7 @@ a {
     font-size: 18px;
     text-align: justify;
     border-radius: 4px;
-    overflow: scroll;
+    overflow:hidden;
 
 }
 
@@ -177,13 +174,11 @@ section h3{
 }
 
 #home-box h2 {
-    text-align: center;
-    
+    text-align: center;   
 }
 
 #home-box2 {
-    text-align: left;
-    height: 200px;
+    text-align: left;    
 }
 
 #home-box2 p {
